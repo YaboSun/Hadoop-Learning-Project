@@ -6,7 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Hadoop-Learning-Project" />
+        <module name="Chapter01-Introduction" />
+        <module name="Chapter02-HDFS" />
+        <module name="Chapter03-YARN" />
+        <module name="Chapter04-MapReduce" />
+        <module name="Chapter05-WholeProject" />
       </profile>
     </annotationProcessing>
   </component>

@@ -6,7 +6,18 @@
 
     <groupId>ybsun</groupId>
     <artifactId>hadoop-learning-project</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>Chapter01-Introduction</module>
+        <module>Chapter02-HDFS</module>
+        <module>Chapter03-YARN</module>
+        <module>Chapter04-MapReduce</module>
+        <module>Chapter05-WholeProject</module>
+    </modules>
 
+    <dependencies>
+
+    </dependencies>
 
 </project>
