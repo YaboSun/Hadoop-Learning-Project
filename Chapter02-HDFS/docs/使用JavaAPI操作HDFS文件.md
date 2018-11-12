@@ -1,16 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <parent>
-        <artifactId>hadoop-learning-project</artifactId>
-        <groupId>ybsun</groupId>
-        <version>1.0-SNAPSHOT</version>
-    </parent>
-    <modelVersion>4.0.0</modelVersion>
+# 环境  
+IDEA2018 + Maven3.3.9  
 
-    <artifactId>chapter02-hdfs</artifactId>
+# 具体开发  
 
+1. 新建项目  
+新建一个maven空项目
+2. 配置pom文件  
+```java
     <properties>
         <junit.version>4.12</junit.version>
         <hadoop.version>2.6.0-cdh5.7.0</hadoop.version>
@@ -36,5 +32,6 @@
             <version>${hadoop.version}</version>
         </dependency>
     </dependencies>
-
-</project>
+```
+其中hadoop是必须需要的，这里不清楚为什么采用hadoop-client，还有就是使用junit来进行单元测试，另外添加  
+repository.cloudera
