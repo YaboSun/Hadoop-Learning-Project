@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a879e04-360e-4d54-be81-b7f11ead4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/leader.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter03-YARN/docs/xxx on YARN.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/HDFSApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/HDFSApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -79,20 +76,22 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="29" />
-          <entry key="md" value="462" />
+          <entry key="md" value="940" />
+          <entry key="txt" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="29" />
-          <entry key="Markdown" value="462" />
+          <entry key="Markdown" value="940" />
+          <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -100,7 +99,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="Markdown" value="1" />
+          <entry key="Markdown" value="2" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -108,60 +107,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/HDFSApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/xxx on YARN.md">
+        <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="340">
-                <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.7.0/hadoop-common-2.6.0-cdh5.7.0-sources.jar!/org/apache/hadoop/fs/FSDataOutputStream.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.7.0/hadoop-common-2.6.0-cdh5.7.0-sources.jar!/org/apache/hadoop/conf/Configuration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter02-HDFS/docs/使用JavaAPI操作HDFS文件.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="510">
-                <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+              <first_editor relative-caret-position="306">
+                <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
               </first_editor>
               <second_editor />
             </state>
@@ -202,6 +153,7 @@
         <option value="$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/AppTest.java" />
         <option value="$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/HDFSApp.java" />
         <option value="$PROJECT_DIR$/Chapter03-YARN/docs/xxx on YARN.md" />
+        <option value="$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md" />
       </list>
     </option>
   </component>
@@ -328,7 +280,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542161500924" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542163876922" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="/usr/bin/svn" />
@@ -483,7 +435,7 @@
       <workItem from="1541751021460" duration="24816000" />
       <workItem from="1542106021894" duration="5068000" />
       <workItem from="1542157404036" duration="1241000" />
-      <workItem from="1542159386583" duration="1622000" />
+      <workItem from="1542159386583" duration="3469000" />
     </task>
     <task id="LOCAL-00001" summary="create project structure">
       <created>1541554848874</created>
@@ -569,7 +521,14 @@
       <option name="project" value="LOCAL" />
       <updated>1541992655730</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="xxx on yarn">
+      <created>1542161582513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1542161582513</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -605,7 +564,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47745000" />
+    <option name="totallyTimeSpent" value="49592000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -689,7 +648,8 @@
     <MESSAGE value="HDFS架构以及cdh版本安装" />
     <MESSAGE value="HDFS shell基本使用" />
     <MESSAGE value="java api 操作开发环境搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="java api 操作开发环境搭建" />
+    <MESSAGE value="xxx on yarn" />
+    <option name="LAST_COMMIT_MESSAGE" value="xxx on yarn" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter01-Introduction/pom.xml">
@@ -810,6 +770,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/xxx on YARN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/HDFSApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
@@ -826,7 +796,7 @@
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.6.0-cdh5.7.0/hadoop-common-2.6.0-cdh5.7.0-sources.jar!/org/apache/hadoop/conf/Configuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
+        <state relative-caret-position="291">
           <caret line="175" column="13" selection-start-line="175" selection-start-column="13" selection-end-line="175" selection-end-column="13" />
         </state>
       </provider>
@@ -848,11 +818,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/xxx on YARN.md">
+    <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="340">
-            <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
           </first_editor>
           <second_editor />
         </state>
