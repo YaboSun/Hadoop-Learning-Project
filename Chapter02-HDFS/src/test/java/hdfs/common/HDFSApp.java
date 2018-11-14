@@ -13,8 +13,6 @@ import org.junit.Test;
 import java.io.IOException;
 import java.net.URI;
 
-import static org.junit.Assert.*;
-
 /**
  * Created by YaboSun in 18-11-12
  *
@@ -23,7 +21,7 @@ import static org.junit.Assert.*;
 public class HDFSApp {
 
     // 以string类型定义hdfs
-    public static final String HDFS_PATH = "hdfs://slave02:8020";
+    public static final String HDFS_PATH = "hdfs://leader:8020";
 
     private Path path = new Path("/hdfsapi/test/1.txt");
     // 声明一个FileSystem

@@ -7,10 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Chapter01-Introduction" />
+        <module name="chapter01-introduction" />
+        <module name="chapter02-hdfs" />
         <module name="Chapter02-HDFS" />
+        <module name="chapter03-yarn" />
         <module name="Chapter03-YARN" />
         <module name="Chapter04-MapReduce" />
+        <module name="chapter04-mapreduce" />
         <module name="Chapter05-WholeProject" />
+        <module name="chapter05-wholeproject" />
       </profile>
     </annotationProcessing>
   </component>
