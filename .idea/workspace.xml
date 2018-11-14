@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a879e04-360e-4d54-be81-b7f11ead4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -76,15 +75,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="29" />
-          <entry key="md" value="940" />
-          <entry key="txt" value="11" />
+          <entry key="md" value="1033" />
+          <entry key="txt" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="29" />
-          <entry key="Markdown" value="940" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Markdown" value="1033" />
+          <entry key="PLAIN_TEXT" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,8 +110,8 @@
         <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+              <first_editor relative-caret-position="476">
+                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -280,7 +279,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542163876922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542163881747" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="/usr/bin/svn" />
@@ -435,7 +434,7 @@
       <workItem from="1541751021460" duration="24816000" />
       <workItem from="1542106021894" duration="5068000" />
       <workItem from="1542157404036" duration="1241000" />
-      <workItem from="1542159386583" duration="3469000" />
+      <workItem from="1542159386583" duration="3715000" />
     </task>
     <task id="LOCAL-00001" summary="create project structure">
       <created>1541554848874</created>
@@ -528,7 +527,14 @@
       <option name="project" value="LOCAL" />
       <updated>1542161582513</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="YARN 架构">
+      <created>1542163893903</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1542163893903</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -564,13 +570,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49592000" />
+    <option name="totallyTimeSpent" value="49838000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.19316968" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -649,7 +655,8 @@
     <MESSAGE value="HDFS shell基本使用" />
     <MESSAGE value="java api 操作开发环境搭建" />
     <MESSAGE value="xxx on yarn" />
-    <option name="LAST_COMMIT_MESSAGE" value="xxx on yarn" />
+    <MESSAGE value="YARN 架构" />
+    <option name="LAST_COMMIT_MESSAGE" value="YARN 架构" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter01-Introduction/pom.xml">
@@ -821,8 +828,8 @@
     <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="18" column="60" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="60" />
+          <first_editor relative-caret-position="476">
+            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
           </first_editor>
           <second_editor />
         </state>
