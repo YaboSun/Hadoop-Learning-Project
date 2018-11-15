@@ -1,0 +1,1 @@
+* mvn -v 查看maven版本  * mvn compile  编译  * mvn test  运行测试  * mvn package  打包  * mvn clean  删除target  * mvn install  安装jar包到本地仓库中  整个编译的过程中应该是先进行项目的compile，如果是在编译过程中出现依赖其他项目，则需要将相关的依赖包添加到本项目的pom文件  之后再将依赖的项目进行install，然后再进行编译运行

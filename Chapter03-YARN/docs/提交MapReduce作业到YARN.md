@@ -1,0 +1,1 @@
+# 提交MR任务到YARN运行  这里先只是使用一个自带的案例进行测试  位置：  /usr/local/hadoop-2.6.0-cdh5.7.0/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.6.0-cdh5.7.0.jar  

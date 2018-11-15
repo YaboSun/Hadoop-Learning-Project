@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a879e04-360e-4d54-be81-b7f11ead4c2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Chapter03-YARN/docs/提交MapReduce作业到YARN.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maven常用命令.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -65,32 +67,35 @@
     <session id="596976027">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="29" />
-          <entry key="md" value="1033" />
-          <entry key="txt" value="18" />
+          <entry key="md" value="1563" />
+          <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="29" />
-          <entry key="Markdown" value="1033" />
-          <entry key="PLAIN_TEXT" value="18" />
+          <entry key="JAVA" value="30" />
+          <entry key="Markdown" value="1562" />
+          <entry key="PLAIN_TEXT" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="2" />
-          <entry key="md" value="2" />
+          <entry key="md" value="5" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
@@ -98,7 +103,7 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="2" />
-          <entry key="Markdown" value="2" />
+          <entry key="Markdown" value="5" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -106,12 +111,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="476">
-                <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+              <first_editor>
+                <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN环境搭建.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/提交MapReduce作业到YARN.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="114">
+                <caret line="6" selection-start-line="6" selection-end-line="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/maven常用命令.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="266">
+                <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
               </first_editor>
               <second_editor />
             </state>
@@ -153,6 +194,9 @@
         <option value="$PROJECT_DIR$/Chapter02-HDFS/src/test/java/hdfs/common/HDFSApp.java" />
         <option value="$PROJECT_DIR$/Chapter03-YARN/docs/xxx on YARN.md" />
         <option value="$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md" />
+        <option value="$PROJECT_DIR$/Chapter03-YARN/docs/YARN环境搭建.md" />
+        <option value="$PROJECT_DIR$/Chapter03-YARN/docs/提交MapReduce作业到YARN.md" />
+        <option value="$PROJECT_DIR$/maven常用命令.md" />
       </list>
     </option>
   </component>
@@ -219,7 +263,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -227,59 +270,17 @@
               <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02-HDFS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter02-HDFS" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter03-YARN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter03-YARN" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter03-YARN" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542163881747" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542291167661" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="/usr/bin/svn" />
@@ -434,7 +435,10 @@
       <workItem from="1541751021460" duration="24816000" />
       <workItem from="1542106021894" duration="5068000" />
       <workItem from="1542157404036" duration="1241000" />
-      <workItem from="1542159386583" duration="3715000" />
+      <workItem from="1542159386583" duration="4463000" />
+      <workItem from="1542195965310" duration="1476000" />
+      <workItem from="1542202583387" duration="2207000" />
+      <workItem from="1542282426455" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="create project structure">
       <created>1541554848874</created>
@@ -534,7 +538,21 @@
       <option name="project" value="LOCAL" />
       <updated>1542163893903</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="YARN 架构">
+      <created>1542163934605</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1542163934605</updated>
+    </task>
+    <task id="LOCAL-00016" summary="YARN 环境搭建">
+      <created>1542204355219</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1542204355219</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -570,13 +588,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49838000" />
+    <option name="totallyTimeSpent" value="55686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19316968" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1995731" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -656,7 +673,8 @@
     <MESSAGE value="java api 操作开发环境搭建" />
     <MESSAGE value="xxx on yarn" />
     <MESSAGE value="YARN 架构" />
-    <option name="LAST_COMMIT_MESSAGE" value="YARN 架构" />
+    <MESSAGE value="YARN 环境搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="YARN 环境搭建" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter01-Introduction/pom.xml">
@@ -828,8 +846,38 @@
     <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN架构.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="476">
-            <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <first_editor>
+            <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/YARN环境搭建.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter03-YARN/docs/提交MapReduce作业到YARN.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" selection-start-line="6" selection-end-line="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/maven常用命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           </first_editor>
           <second_editor />
         </state>
