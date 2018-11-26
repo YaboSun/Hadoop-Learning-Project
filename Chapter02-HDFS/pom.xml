@@ -16,12 +16,12 @@
         <hadoop.version>2.6.0-cdh5.7.0</hadoop.version>
     </properties>
 
-    <repositories>
-        <repository>
-            <id>cloudera</id>
-            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
-        </repository>
-    </repositories>
+    <!--<repositories>-->
+        <!--<repository>-->
+            <!--<id>cloudera</id>-->
+            <!--<url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>-->
+        <!--</repository>-->
+    <!--</repositories>-->
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

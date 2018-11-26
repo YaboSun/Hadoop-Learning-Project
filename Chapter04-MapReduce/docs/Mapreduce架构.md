@@ -1,0 +1,1 @@
+通过学习HDFS与MapReduce1.x总觉着俩者设计架构有很多相似之处  JobTracker类似DataNode TaskTracker类似NameNode：  * 俩者都是通过心跳来判断是否挂掉  * 都是一个作为管理者，一个作为执行者  
