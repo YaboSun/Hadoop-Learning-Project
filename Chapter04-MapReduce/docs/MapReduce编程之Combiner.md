@@ -1,0 +1,1 @@
+MapReduce编程之Combiner  * 相当于在Map端做了一个本地的Reducer  * 减少Map Tasks输出的数据量及数据网络传输量  *   使用场景：  适用求和 求次数等 不适用平均数等
