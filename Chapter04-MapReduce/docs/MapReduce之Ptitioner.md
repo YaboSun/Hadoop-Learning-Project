@@ -1,0 +1,1 @@
+Partitioner  Partitioner决定MapTask输出的数据交由哪个ReduceTask处理  默认实现：**分发的key的hash值对ReduceTask个数取模**

@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a879e04-360e-4d54-be81-b7f11ead4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce编程之Combiner.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/CombinerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce之Ptitioner.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/PartitionerApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/WordCountApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/WordCountApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -124,34 +123,34 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="3" />
-          <entry key="java" value="10" />
-          <entry key="md" value="5" />
+          <entry key="java" value="11" />
+          <entry key="md" value="6" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="10" />
-          <entry key="Markdown" value="5" />
+          <entry key="JAVA" value="11" />
+          <entry key="Markdown" value="6" />
           <entry key="XML" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="1421" />
-          <entry key="md" value="1226" />
-          <entry key="txt" value="79" />
+          <entry key="java" value="1743" />
+          <entry key="md" value="1356" />
+          <entry key="txt" value="97" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="1421" />
-          <entry key="Markdown" value="1226" />
-          <entry key="PLAIN_TEXT" value="79" />
+          <entry key="JAVA" value="1743" />
+          <entry key="Markdown" value="1356" />
+          <entry key="PLAIN_TEXT" value="97" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -162,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/WordCountApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+            <state relative-caret-position="-89">
+              <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,12 +170,33 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce之Ptitioner.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="76">
+                <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/PartitionerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="48" column="90" lean-forward="true" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce编程之Combiner.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="114">
-                <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+                <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -197,15 +217,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
               <caret line="203" column="20" selection-start-line="203" selection-start-column="20" selection-end-line="203" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.7.0/hadoop-mapreduce-client-core-2.6.0-cdh5.7.0-sources.jar!/org/apache/hadoop/mapreduce/Reducer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="124" lean-forward="true" selection-start-line="124" selection-end-line="124" />
             </state>
           </provider>
         </entry>
@@ -245,15 +256,6 @@
                 <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.7.0/hadoop-mapreduce-client-core-2.6.0-cdh5.7.0-sources.jar!/org/apache/hadoop/mapred/OutputFormat.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="34" column="9" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -303,8 +305,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter04-MapReduce/docs/使用Maven+IEDA开发WordCount.md" />
         <option value="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/WordCountApp.java" />
-        <option value="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce编程之Combiner.md" />
         <option value="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/CombinerApp.java" />
+        <option value="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce编程之Combiner.md" />
+        <option value="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce之Ptitioner.md" />
+        <option value="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/PartitionerApp.java" />
       </list>
     </option>
   </component>
@@ -424,7 +428,7 @@
     <property name="SearchEverywhereHistoryKey" value="OutputFormat&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.OutputFormat&#10;OutputFo&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.serialize.OutputFormat&#10;OutPutFor&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.serialize.OutputFormat&#10;InputFormat&#9;FILE&#9;jar:///home/leader/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.7.0/hadoop-mapreduce-client-core-2.6.0-cdh5.7.0.jar!/org/apache/hadoop/mapred/InputFormat.class&#10;Wri&#9;PSI&#9;JAVA://org.apache.hadoop.io.Writable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543218475239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543220532695" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gtl/geobeam" />
@@ -590,7 +594,7 @@
       <workItem from="1543197855291" duration="1712000" />
       <workItem from="1543200605647" duration="748000" />
       <workItem from="1543201425833" duration="1576000" />
-      <workItem from="1543203460058" duration="11614000" />
+      <workItem from="1543203460058" duration="14335000" />
     </task>
     <task id="LOCAL-00001" summary="create project structure">
       <created>1541554848874</created>
@@ -725,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543217643264</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="mapreduce combiner">
+      <created>1543218530874</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1543218530874</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -761,11 +772,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80510000" />
+    <option name="totallyTimeSpent" value="83231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984127" visible="true" weight="0.20811099" />
       <window_info id="Structure" order="1" sideWeight="0.50158733" side_tool="true" weight="0.20811099" />
@@ -851,7 +861,8 @@
     <MESSAGE value="YARN 提交作业" />
     <MESSAGE value="Mapreduce概述" />
     <MESSAGE value="实现MapReduce版本的WordCount" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现MapReduce版本的WordCount" />
+    <MESSAGE value="mapreduce combiner" />
+    <option name="LAST_COMMIT_MESSAGE" value="mapreduce combiner" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter05-WholeProject/pom.xml">
@@ -1175,16 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/WordCountApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/CombinerApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
@@ -1196,9 +1197,36 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="114">
-            <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/WordCountApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="64" lean-forward="true" selection-start-line="64" selection-end-line="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce之Ptitioner.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/PartitionerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="48" column="90" lean-forward="true" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
         </state>
       </provider>
     </entry>
