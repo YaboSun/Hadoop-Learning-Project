@@ -13,12 +13,13 @@
         <module name="Chapter03-YARN" />
         <module name="Chapter04-MapReduce" />
         <module name="chapter04-mapreduce" />
+        <module name="Chapter05-Common" />
         <module name="Chapter05-WholeProject" />
-        <module name="chapter05-wholeproject" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="chapter01-introduction" target="1.5" />
+      <module name="chapter05-Common" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

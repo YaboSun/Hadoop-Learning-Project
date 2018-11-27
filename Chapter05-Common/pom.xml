@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>chapter05-wholeproject</artifactId>
+    <artifactId>Chapter05-Common</artifactId>
 
 
 </project>

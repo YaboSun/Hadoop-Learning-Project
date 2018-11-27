@@ -12,7 +12,7 @@
         <module>Chapter02-HDFS</module>
         <module>Chapter03-YARN</module>
         <module>Chapter04-MapReduce</module>
-        <module>Chapter05-WholeProject</module>
+        <module>Chapter05-Common</module>
     </modules>
 
     <properties>
