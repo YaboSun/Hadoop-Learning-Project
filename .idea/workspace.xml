@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a879e04-360e-4d54-be81-b7f11ead4c2c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/partitioner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/word.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/wordcount/._SUCCESS.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/wordcount/.part-r-00000.crc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/wordcount/_SUCCESS" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter04-MapReduce/wordcount/part-r-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Chapter05-Common/docs/用户行为日志概述.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Chapter05-WholeProject/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Chapter05-Common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter05-Common/docs/用户行为日志概述.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Chapter05-Common/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -136,7 +128,7 @@
         <counts>
           <entry key="class" value="3" />
           <entry key="java" value="11" />
-          <entry key="md" value="7" />
+          <entry key="md" value="8" />
           <entry key="txt" value="1" />
           <entry key="xml" value="9" />
         </counts>
@@ -145,7 +137,7 @@
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="JAVA" value="11" />
-          <entry key="Markdown" value="7" />
+          <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="9" />
         </counts>
@@ -154,8 +146,8 @@
         <counts>
           <entry key="class" value="1" />
           <entry key="java" value="1743" />
-          <entry key="md" value="1703" />
-          <entry key="txt" value="119" />
+          <entry key="md" value="1991" />
+          <entry key="txt" value="127" />
           <entry key="xml" value="6" />
         </counts>
       </usages-collector>
@@ -163,8 +155,8 @@
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="JAVA" value="1743" />
-          <entry key="Markdown" value="1703" />
-          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="Markdown" value="1991" />
+          <entry key="PLAIN_TEXT" value="127" />
           <entry key="XML" value="6" />
         </counts>
       </usages-collector>
@@ -172,32 +164,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Chapter05-Common/docs/用户行为日志概述.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="665">
-                <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Chapter05-Common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="247">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -310,8 +281,9 @@
         <option value="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce编程之Combiner.md" />
         <option value="$PROJECT_DIR$/Chapter04-MapReduce/docs/MapReduce之Ptitioner.md" />
         <option value="$PROJECT_DIR$/Chapter04-MapReduce/src/main/java/mapreduce/app/PartitionerApp.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Chapter05-Common/docs/用户行为日志概述.md" />
+        <option value="$PROJECT_DIR$/Chapter05-Common/docs/离线数据处理架构.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -378,31 +350,6 @@
               <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05-Common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05-Common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05-Common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Hadoop-Learning-Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Hadoop-Learning-Project" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter05-Common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -415,10 +362,10 @@
     <property name="SearchEverywhereHistoryKey" value="OutputFormat&#9;PSI&#9;JAVA://org.apache.hadoop.mapred.OutputFormat&#10;OutputFo&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.serialize.OutputFormat&#10;OutPutFor&#9;PSI&#9;JAVA://com.sun.org.apache.xml.internal.serialize.OutputFormat&#10;InputFormat&#9;FILE&#9;jar:///home/leader/.m2/repository/org/apache/hadoop/hadoop-mapreduce-client-core/2.6.0-cdh5.7.0/hadoop-mapreduce-client-core-2.6.0-cdh5.7.0.jar!/org/apache/hadoop/mapred/InputFormat.class&#10;Wri&#9;PSI&#9;JAVA://org.apache.hadoop.io.Writable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543233756889" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543283681958" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gtl/geohadoop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gtl/geoflink" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -583,7 +530,7 @@
       <workItem from="1543201425833" duration="1576000" />
       <workItem from="1543203460058" duration="14761000" />
       <workItem from="1543221828821" duration="2910000" />
-      <workItem from="1543280378301" duration="810000" />
+      <workItem from="1543280378301" duration="2612000" />
     </task>
     <task id="LOCAL-00001" summary="create project structure">
       <created>1541554848874</created>
@@ -732,7 +679,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543221426443</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="用户行为日志概述">
+      <created>1543281290449</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1543281290449</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -768,7 +722,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87377000" />
+    <option name="totallyTimeSpent" value="89179000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
@@ -860,7 +814,8 @@
     <MESSAGE value="实现MapReduce版本的WordCount" />
     <MESSAGE value="mapreduce combiner" />
     <MESSAGE value="mapreduce partitioner学习编码" />
-    <option name="LAST_COMMIT_MESSAGE" value="mapreduce partitioner学习编码" />
+    <MESSAGE value="用户行为日志概述" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户行为日志概述" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Chapter05-WholeProject/pom.xml" />
@@ -1170,13 +1125,6 @@
     <entry file="file://$PROJECT_DIR$/Chapter04-MapReduce/partitioner.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Chapter05-Common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1235,10 +1183,27 @@
     <entry file="file://$PROJECT_DIR$/Chapter05-Common/docs/用户行为日志概述.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="665">
-            <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+          <first_editor relative-caret-position="494">
+            <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chapter05-Common/docs/离线数据处理架构.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
         </state>
       </provider>
     </entry>
